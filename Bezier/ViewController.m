@@ -10,6 +10,7 @@
 #import "BallView.h"
 #import "DotView.h"
 #import "FormulaView.h"
+#import "ShipView.h"
 
 @interface ViewController ()
 
@@ -20,9 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    BallView *view = [[BallView alloc] initWithFrame:self.view.frame];
+    //BallView *view = [[BallView alloc] initWithFrame:self.view.frame];
     //DotView *view = [[DotView alloc] initWithFrame:self.view.frame];
     //FormulaView *view = [[FormulaView alloc] initWithFrame:self.view.frame];
+    
+    ShipView *view = [[ShipView alloc] initWithFrame:self.view.frame];
     
     self.view = view;
 

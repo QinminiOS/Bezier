@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B9B8B67B1E2C63CD006D712F /* FormulaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B8B67A1E2C63CD006D712F /* FormulaView.m */; };
+		B9B8B67E1E2CFFBB006D712F /* ShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B8B67D1E2CFFBB006D712F /* ShipView.m */; };
 		B9B9E7021E2B0037003A3647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9E7011E2B0037003A3647 /* main.m */; };
 		B9B9E7051E2B0037003A3647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9E7041E2B0037003A3647 /* AppDelegate.m */; };
 		B9B9E7081E2B0037003A3647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9E7071E2B0037003A3647 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		B9B8B6791E2C63CD006D712F /* FormulaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormulaView.h; sourceTree = "<group>"; };
 		B9B8B67A1E2C63CD006D712F /* FormulaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormulaView.m; sourceTree = "<group>"; };
+		B9B8B67C1E2CFFBB006D712F /* ShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipView.h; sourceTree = "<group>"; };
+		B9B8B67D1E2CFFBB006D712F /* ShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipView.m; sourceTree = "<group>"; };
 		B9B9E6FD1E2B0037003A3647 /* Bezier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bezier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B9E7011E2B0037003A3647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9B9E7031E2B0037003A3647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				B9B9E7001E2B0037003A3647 /* Supporting Files */,
 				B9B8B6791E2C63CD006D712F /* FormulaView.h */,
 				B9B8B67A1E2C63CD006D712F /* FormulaView.m */,
+				B9B8B67C1E2CFFBB006D712F /* ShipView.h */,
+				B9B8B67D1E2CFFBB006D712F /* ShipView.m */,
 			);
 			path = Bezier;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			files = (
 				B9B9E7081E2B0037003A3647 /* ViewController.m in Sources */,
 				B9B9E7051E2B0037003A3647 /* AppDelegate.m in Sources */,
+				B9B8B67E1E2CFFBB006D712F /* ShipView.m in Sources */,
 				B9B9E7381E2B0097003A3647 /* DotView.m in Sources */,
 				B9B9E7021E2B0037003A3647 /* main.m in Sources */,
 				B9B9E7351E2B0059003A3647 /* BallView.m in Sources */,
